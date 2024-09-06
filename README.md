@@ -1,73 +1,93 @@
 
 ![Sample Image](./images/sample-image.png)
 
-# Getting Started with Create React App
+# React Blog Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple blog application built using React, providing users with the ability to view, add, edit, and delete blog posts. The project is part of the "Learn React" tutorial series.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Home Page**: Displays a list of blog posts.
+- **Create Post**: Users can create new blog posts.
+- **Edit Post**: Users can edit existing blog posts.
+- **Delete Post**: Users can delete blog posts.
+- **View Post**: Users can view a single blog post.
+- **Search**: Users can search for posts by title or content.
+- **Responsive Design**: Adapts to different screen sizes (mobile, tablet, desktop).
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Make sure you have the following software installed:
 
-### `npm test`
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/Dhinesh2507/Social-Media-App.git
+   cd Social-Media-App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+src: Contains all source code files.
+components: Contains the main components (Header.js, Nav.js, About.js, PostPage.js, etc.)
+context: Contains the DataContext.js for managing global state.
+hooks: Contains custom hooks (like useWindowSize.js).
+api: Contains API configurations and mock data (posts.js).
+index.js: Main entry point of the React application.
+App.js: Root component containing the main layout and routing.
 
-### `npm run eject`
+Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Home Page: Displays all blog posts.
+Create Post: Navigate to /post and fill out the form to create a new post.
+Edit Post: Click on a post to view it, then click the "Edit Post" button to modify.
+Delete Post: Click the "Delete Post" button on a post page to remove it.
+Search: Use the search bar in the navigation to find posts by title or content.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+API Endpoints
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project uses a mock API to simulate CRUD operations.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+GET /posts: Fetch all posts.
+POST /posts: Create a new post.
+PUT /posts/:id: Update an existing post.
+DELETE /posts/:id: Delete a post.
 
-## Learn More
+Custom Hooks
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+useWindowSize.js: A custom hook that provides the current window size.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Dependencies
 
-### Code Splitting
+react-router-dom: For routing and navigation.
+date-fns: For date formatting.
+axios: For API calls.
+react-icons: For icons.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Development
 
-### Analyzing the Bundle Size
+To contribute to this project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Make your changes.
+Commit and push your changes (git commit -am 'Add new feature').
+Create a Pull Request.
 
-### Making a Progressive Web App
+License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Advanced Configuration
+Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React
+React Router
+date-fns
+Axios
+React Icons
