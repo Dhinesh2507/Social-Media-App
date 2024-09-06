@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "10th Standard",
+      "datetime": "Jun, 2015 - May, 2016",
+      "body": "Completed 10th standard education from [G.B.Hr.Sec.School]. The curriculum included subjects such as Mathematics, Science, English, and Social Studies. Achieved a strong foundation in fundamental academic skills and knowledge."
+    },
+    {
+      "id": "2",
+      "title": "12th Standard",
+      "datetime": "Jun, 2017 - May, 2018",
+      "body": "Completed 12th standard education from [G.B.Hr.Sec.School]. Specialized in [Science] with subjects including [Maths] and [Biology]. Prepared for higher education and developed skills in critical thinking and analysis."
+    },
+    {
+      "id": "3",
+      "title": "MCA",
+      "datetime": "Jun, 2021 - Apr, 2023",
+      "body": "Completed Master of Computer Applications (MCA) from Bharathidasan University. Focused on advanced topics such as Web Development, Mobile Applications, and Cloud Computing. Developed strong skills in programming, software engineering, and project management."
+    },
+    {
+      "id": "4",
+      "title": "Junior Associate Software Developer",
+      "datetime": "September 06, 2024 10:41:11 AM",
+      "body": "Currently working as a Junior Associate Software Developer at Honeybee Engineering and Innovation Private Limited. Responsibilities include developing and maintaining web applications using modern technologies."
+    }
+  ]
+}
